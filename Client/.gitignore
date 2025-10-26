@@ -23,4 +23,9 @@ dist-ssr
 *.sln
 *.sw?
 
+# Virtual Environment
 .env
+venv/
+ENV/
+env/
+.venv/
