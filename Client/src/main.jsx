@@ -6,7 +6,7 @@ import {BrowserRouter} from 'react-router-dom'
 import axios from 'axios'
 // fix: ensure cookies (JWT) are sent with all requests
 axios.defaults.withCredentials = true
-import { AppContextProvider } from './context/Appcontext'
+import { AppContextProvider } from './context/AppContext'
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
   <AppContextProvider>

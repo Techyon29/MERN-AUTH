@@ -1,12 +1,49 @@
-# React + Vite
+# 🎯 MERN Auth – Frontend (Client)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This folder contains the **React + Vite** frontend for a secure **MERN stack authentication system** with **email OTP verification**.
 
-Currently, two official plugins are available:
+Full project: [https://github.com/Techyon29/MERN-AUTH](https://github.com/Techyon29/MERN-AUTH)
+<br />
+Backend Url : [https://mern-auth-backend-o2j2.onrender.com/]
+<br />
+Frontend Url : [https://mern-auth-backend-o2j2.onrender.com/]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Preview
+<h3>Home Page</h3>
+<img src="public/ScreenShot/home.png">  
+<h3>Login Page</h3>
+<img src="public/ScreenShot/Login.png">  
+<h3>SignUp Page</h3>
+<img src="public/ScreenShot/SignUp.png">  
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- User **Registration** with email verification via OTP
+- **Login** with credentials
+- **OTP Verification** screen for new users / password reset
+- **Protected Dashboard** / Home page (after successful auth)
+- Responsive UI with **Tailwind CSS**
+- Client-side routing with **React Router DOM**
+- Toast notifications for success/error messages
+- JWT-based authentication (tokens stored securely)
+- Forgot Password flow with OTP reset
+
+## 🛠️ Tech Stack (Frontend)
+
+- **React** (with Hooks & Context for auth state)
+- **Vite** – Lightning-fast build tool
+- **Tailwind CSS** – Utility-first styling
+- **React Router DOM** v6 – For routing & protected routes
+- **Axios** – API requests to backend
+- **React Toastify** – Beautiful notifications
+- ESLint + Prettier (for code quality)
+
+## 🚀 Quick Start
+To Check backend Server response 
+Backend Url : [https://mern-auth-backend-o2j2.onrender.com/1]
+
+### Prerequisites
+
+- Node.js ≥ 18
+- npm or yarn
+- Backend server running (see [/Server](../Server) folder)

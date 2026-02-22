@@ -1,20 +1,42 @@
-# MERN AUTHENTICATION SYSTEM
-Modern Authentication System that are use for authentication.
-This System can use <b>OTP</b> to verify email
-<br> User can change its password by mean of <b>OTP</b>
-<h1>TECH STACK -></h1>
-<br>
-<ul>
-<h2>Front End</h2>
-<li>React</li>
-<li>Tailwind CSS</li>
-<li>React Router DOM</li>
+# 🔐 MERN AUTH – Secure Authentication System with Email OTP
 
-</ul>
+A full-stack **MERN** (MongoDB, Express, React, Node.js) authentication boilerplate featuring **email OTP verification** for signup and password reset. Built for learning/production-ready auth flows.
 
-<ul>
-<h2>Backend</h2>
-<li>Nodejs</li>
-<li>Express</li>
-<li>MongoDB</li>
-</ul>
+**Live Demo:** (Add link once deployed – e.g. Vercel frontend + Render/Railway backend)  
+**Backend API:** (e.g. https://mern-auth-backend.onrender.com/api)  
+
+![Project Banner / Screenshot]
+<h3>Home Page</h3>
+<img src="client/public/ScreenShot/home.png">  
+<h3>Login Page</h3>
+<img src="client/public/ScreenShot/Login.png">  
+<h3>SignUp Page</h3>
+<img src="client/public/ScreenShot/SignUp.png">  
+
+## ✨ Key Features
+
+- **User Registration** with email + password → OTP sent for verification
+- **Email OTP Verification** (activates account)
+- **Login** with JWT authentication
+- **Forgot Password / Reset** using OTP (no insecure reset links)
+- **Protected Routes** (Dashboard / Profile after login)
+- Responsive, modern UI with **Tailwind CSS**
+- Toast notifications for feedback
+- Secure: Password hashing (bcrypt), JWT tokens, rate limiting (recommended)
+- Environment variable support (.env)
+
+## 🛠️ Tech Stack
+
+### Frontend (Client/)
+- React + Vite
+- Tailwind CSS
+- React Router DOM v6
+- Axios (API calls)
+- React Toastify
+
+### Backend (Server/)
+- Node.js + Express
+- MongoDB (with Mongoose)
+- JWT for tokens
+- Nodemailer (for sending OTP emails)
+- bcryptjs (password hashing)
