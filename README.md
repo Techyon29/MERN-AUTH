@@ -7,11 +7,11 @@ A full-stack **MERN** (MongoDB, Express, React, Node.js) authentication boilerpl
 
 ![Project Banner / Screenshot]
 <h3>Home Page</h3>
-<img src="client/public/ScreenShot/home.png">  
+<img src="Client/public/ScreenShot/home.png">  
 <h3>Login Page</h3>
-<img src="client/public/ScreenShot/Login.png">  
+<img src="Client/public/ScreenShot/Login.png">  
 <h3>SignUp Page</h3>
-<img src="client/public/ScreenShot/SignUp.png">  
+<img src="Client/public/ScreenShot/SignUp.png">  
 
 ## ✨ Key Features
 
