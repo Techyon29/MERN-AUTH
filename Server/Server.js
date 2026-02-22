@@ -12,7 +12,7 @@ app.use(cookieParser());
 // fix: use process.env.PORT instead of process.nextTick.PORT
 const PORT = process.env.PORT || 4000;
 connectdb();
-const allowedOrigins = ['http://localhost:5173']
+const allowedOrigins = process.env.Frontend_URL;
 app.use(express.json());
 app.use(cors({origin: allowedOrigins,credentials:true}))
 app.get("/:id",(req,res)=>{
