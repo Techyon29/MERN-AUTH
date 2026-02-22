@@ -7,8 +7,9 @@
   "type": "module",
   "main": "Index.js",
   "scripts": {
-    "start": "nodemon Server.js",
-    "server": "node Server.js"
+    "start": "node Server.js",
+  "dev": "nodemon Server.js", 
+  "server": "node Server.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",
