@@ -17,7 +17,7 @@ const SignIn = () => {
     try {
       e.preventDefault();
       axios.defaults.withCredentials = true
-      if(state === 'SignUp'){
+      if(state === 'Sign Up'){
         const {data} = await axios.post(backendurl + '/api/auth/register',{name,email,password})
         
         if(data.success){
